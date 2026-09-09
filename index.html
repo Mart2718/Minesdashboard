@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Lauren Romero — 2026 Career Fair Dashboard</title>
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header>
+<div class="wrap">
+  <div class="kicker">Colorado School of Mines · Fall 2026 Career Days</div>
+  <div class="title">Lauren Romero — Career Fair Dashboard</div>
+  <div class="subtitle">Top 15 priority employers for full-time 2027 entry-level engineering roles. Primary focus: mechanical, automation/controls, manufacturing, test and systems engineering. Secondary focus: medtech/product-development crossover.</div>
+  <div class="controls"><button class="btn active" data-mode="research">Research Mode</button><button class="btn" data-mode="fair">Fair Mode</button></div>
+  <div class="page-tabs"><button class="page-tab active" data-page="top15">Top 15 · Day 2</button><button class="page-tab" data-page="day1top6">Day 1 · Top 6</button><button class="page-tab" data-page="tier2">Tier 2 Backup</button><button class="page-tab" data-page="guide">Fair Strategy</button></div>
+</div>
+</header>
+<main><div class="wrap">
+<div class="summary"><div class="metric"><b>15</b><span>priority employers</span></div><div class="metric"><b>9</b><span>Colorado / strong CO path</span></div><div class="metric"><b>2+</b><span>California priority paths</span></div><div class="metric"><b>Sep 8, 2026</b><span>research last verified</span></div></div>
+<div class="filters-panel"><span class="label" style="margin:0">Filter</span><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="day1">Day 1</button><button class="filter" data-filter="day2">Day 2</button><button class="filter" data-filter="colorado">Colorado</button><button class="filter" data-filter="socal">SoCal</button><button class="filter" data-filter="norcal">NorCal</button><button class="filter" data-filter="controls">Controls</button><button class="filter" data-filter="mechanical">Mechanical</button><button class="filter" data-filter="medtech">Medtech</button><input id="search" class="search" placeholder="Search company, role, location…" /></div>
+<div id="top15Page"><div id="grid" class="grid"></div></div><div id="day1top6Page" style="display:none"><div class="backup-intro"><b>Day 1 Research Shortlist:</b> six employers worth researching before the fair. These cards intentionally have more depth than the backup list so Lauren can decide which Day 1 booths deserve her time.</div><div id="day1Grid" class="grid"></div></div><div id="tier2Page" style="display:none"><div class="backup-intro"><b>Tier 2 Backup:</b> additional employers only—not duplicates of the Top 15 or Day 1 Top 6. Use this as a quick cross-reference if a booth catches Lauren’s attention or she has extra time.</div><div id="backupGrid" class="backup-grid"></div></div>
+<div id="guidePage" style="display:none">
+  <div class="backup-intro"><b>Career Fair Strategy:</b> a short checklist for the conversations themselves. The goal is not to memorize a script; it is to leave each worthwhile booth knowing what to do next.</div>
+  <div class="grid">
+    <article class="card"><div class="card-body"><div class="label">Leave every good booth with these 3 answers</div><div class="why"><b>1.</b> What specific job title or team should I search for?<br><b>2.</b> When should a May 2027 graduate apply or watch for openings?<br><b>3.</b> Who should I follow up with, or what is the best next step?</div></div></article>
+    <article class="card"><div class="card-body"><div class="label">Immediately after the conversation</div><div class="why">Capture just three things before moving on: <b>the person’s name</b>, <b>one memorable detail from the conversation</b>, and <b>the promised next action</b>. Those notes become the raw material for Lauren’s follow-up and, later, the Google Sheet tracker.</div></div></article>
+    <article class="card"><div class="card-body"><div class="label">Universal backup questions</div><div class="why">• Which entry-level roles are the best fit for a mechanical engineer with controls, testing and hands-on project experience?<br>• What separates the new graduates who do especially well on your engineering teams?<br>• How much hands-on design, testing, commissioning or manufacturing work do early-career engineers get?<br>• Are you hiring May 2027 graduates now, or when should I start watching your careers page?<br>• Is there a particular team, recruiter or job title you recommend I follow up on after the fair?</div></div></article>
+    <article class="card"><div class="card-body"><div class="label">Don’t forget</div><div class="why">Lead with <b>Huffman + mechanical engineering</b>, then adapt the rest of the story to the employer. Ask questions that cannot be answered by simply reading the company homepage. If the fit is weak, thank the recruiter and move on—Lauren’s time is more valuable at the strongest booths.</div></div></article>
+  </div>
+</div>
+<div class="footer-note"><b>How to use this:</b> Research Mode is for preparation; Fair Mode strips each company down to booth, story, recruiter question and links. Use the Top 15, Day 1 Top 6, Tier 2 Backup and Fair Strategy tabs to switch between priority targets, exploratory Day 1 research, secondary employers and conversation reminders. “Visited” checkboxes save locally in this browser only. Job openings can close or change quickly; the evidence here was verified on September 8, 2026 and should be refreshed before applications are submitted.</div>
+</div></main>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body></html>
