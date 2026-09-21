@@ -1,0 +1,1 @@
+exports.handler=async()=>({statusCode:200,headers:{'Content-Type':'application/javascript','Cache-Control':'no-store'},body:'window.APP_CONFIG='+JSON.stringify({supabaseUrl:process.env.SUPABASE_URL||'',supabasePublishableKey:process.env.SUPABASE_PUBLISHABLE_KEY||''})+';'})
